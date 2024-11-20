@@ -1,12 +1,8 @@
 <template>
-  <counter></counter>
-  <ToDoList></ToDoList>
+  <MainView></MainView>
 </template>
 
 <script setup>
-import Counter from './components/Counter.vue';
-import ToDoList from './components/ToDoList.vue';
+import MainView from './views/MainView.vue';
 </script>
-
-<style scoped>
-</style>
+<style scoped></style>
