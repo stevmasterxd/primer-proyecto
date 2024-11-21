@@ -1,8 +1,8 @@
 <template>
   <h1>Hello World</h1>
   <p>{{ counter }}</p>
-  <button @click="increase">increase</button>
   <button @click="decrease">decrease</button>
+  <button @click="increase">increase</button>
 </template>
 
 <script setup>
