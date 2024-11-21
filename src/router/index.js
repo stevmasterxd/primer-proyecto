@@ -16,9 +16,9 @@ const router = createRouter({
     {
       path: '/ToDoList',
       name: 'ToDoList',
-      component: () => import('../components/ToDoList.vue'),
-    },
-  ],
+      component: () => import('../components/ToDoList.vue')
+    }
+  ]
 })
 
 export default router
