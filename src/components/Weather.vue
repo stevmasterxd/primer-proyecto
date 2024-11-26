@@ -1,5 +1,5 @@
 <template>
-    {{ weatherStore.temperature }}
+    <h3>The current temperature is: {{ weatherStore.temperature }}°</h3>
 </template>
 
 <script setup>
